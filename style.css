@@ -151,3 +151,14 @@ body{
 .image2 { top: -120px; right: -120px; background-image: url('./image2.png'); transform: rotate(15deg); }
 .image3 { bottom: -120px; left: -120px; background-image: url('./image3.png'); transform: rotate(-10deg); }
 .image4 { bottom: -120px; right: -120px; background-image: url('./image4.png'); transform: rotate(10deg); }
+
+@media (max-width: 600px) {
+    .image-frame {
+        width: 60px;
+        height: 60px;
+    }
+    .image1, .image2, .image3, .image4 {
+        top: -70px;
+        bottom: -70px;
+    }
+}
