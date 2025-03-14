@@ -152,7 +152,7 @@ body{
 .image3 { bottom: -120px; left: -120px; background-image: url('./image3.png'); transform: rotate(-10deg); }
 .image4 { bottom: -120px; right: -120px; background-image: url('./image4.png'); transform: rotate(10deg); }
 
-@media (max-width: 600px) {
+@media (max-width: 600px), (max-width: 430px) and (max-height: 932px) {
     .image-frame {
         width: 60px;
         height: 60px;
